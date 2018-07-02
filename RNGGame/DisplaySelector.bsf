@@ -1,0 +1,127 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 288 176)
+	(text "DisplaySelector" (rect 5 0 93 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 144 25 156)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "2RandomNumbersSelect" (rect 0 0 139 14)(font "Arial" (font_size 8)))
+		(text "2RandomNumbersSelect" (rect 21 27 160 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CorrectSelect" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "CorrectSelect" (rect 21 43 98 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "InCorrectSelect" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "InCorrectSelect" (rect 21 59 108 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "GoodSelect" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "GoodSelect" (rect 21 75 87 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "SosoSelect" (rect 0 0 64 14)(font "Arial" (font_size 8)))
+		(text "SosoSelect" (rect 21 91 85 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "UhohSelect" (rect 0 0 64 14)(font "Arial" (font_size 8)))
+		(text "UhohSelect" (rect 21 107 85 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "YeahSelect" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "YeahSelect" (rect 21 123 87 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 272 32)
+		(output)
+		(text "Selector1[2..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "Selector1[2..0]" (rect 169 27 251 41)(font "Arial" (font_size 8)))
+		(line (pt 272 32)(pt 256 32)(line_width 3))
+	)
+	(port
+		(pt 272 48)
+		(output)
+		(text "Selector2[2..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "Selector2[2..0]" (rect 169 43 251 57)(font "Arial" (font_size 8)))
+		(line (pt 272 48)(pt 256 48)(line_width 3))
+	)
+	(port
+		(pt 272 64)
+		(output)
+		(text "Selector3[2..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "Selector3[2..0]" (rect 169 59 251 73)(font "Arial" (font_size 8)))
+		(line (pt 272 64)(pt 256 64)(line_width 3))
+	)
+	(port
+		(pt 272 80)
+		(output)
+		(text "Selector4[2..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "Selector4[2..0]" (rect 169 75 251 89)(font "Arial" (font_size 8)))
+		(line (pt 272 80)(pt 256 80)(line_width 3))
+	)
+	(port
+		(pt 272 96)
+		(output)
+		(text "Selector5[2..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "Selector5[2..0]" (rect 169 91 251 105)(font "Arial" (font_size 8)))
+		(line (pt 272 96)(pt 256 96)(line_width 3))
+	)
+	(port
+		(pt 272 112)
+		(output)
+		(text "Selector6[2..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "Selector6[2..0]" (rect 169 107 251 121)(font "Arial" (font_size 8)))
+		(line (pt 272 112)(pt 256 112)(line_width 3))
+	)
+	(port
+		(pt 272 128)
+		(output)
+		(text "Selector7[2..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "Selector7[2..0]" (rect 169 123 251 137)(font "Arial" (font_size 8)))
+		(line (pt 272 128)(pt 256 128)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 256 144))
+	)
+)
